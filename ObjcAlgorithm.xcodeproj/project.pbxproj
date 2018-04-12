@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		943BC41A207F8D9300802237 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 943BC419207F8D9300802237 /* QuickSort.m */; };
 		94709DE5207EED0E00A4AFA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94709DE4207EED0E00A4AFA2 /* AppDelegate.m */; };
 		94709DE8207EED0E00A4AFA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94709DE7207EED0E00A4AFA2 /* ViewController.m */; };
 		94709DEB207EED0E00A4AFA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94709DE9207EED0E00A4AFA2 /* Main.storyboard */; };
@@ -30,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		943BC418207F8D9300802237 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		943BC419207F8D9300802237 /* QuickSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
 		94709DE0207EED0D00A4AFA2 /* ObjcAlgorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjcAlgorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94709DE3207EED0E00A4AFA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		94709DE4207EED0E00A4AFA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -82,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		943BC415207F8D5400802237 /* QuickSort */ = {
+			isa = PBXGroup;
+			children = (
+				943BC418207F8D9300802237 /* QuickSort.h */,
+				943BC419207F8D9300802237 /* QuickSort.m */,
+			);
+			path = QuickSort;
+			sourceTree = "<group>";
+		};
 		94709DD7207EED0D00A4AFA2 = {
 			isa = PBXGroup;
 			children = (
@@ -225,6 +237,7 @@
 		94709E2E207EF5CE00A4AFA2 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
+				943BC415207F8D5400802237 /* QuickSort */,
 				94709E2F207EF5CE00A4AFA2 /* BubbleSort */,
 			);
 			path = Algorithm;
@@ -315,6 +328,7 @@
 				94709E1F207EEEDA00A4AFA2 /* YTNormalCell.m in Sources */,
 				94709E2A207EEF8F00A4AFA2 /* AlgorithmListCellViewModel.m in Sources */,
 				94709DE8207EED0E00A4AFA2 /* ViewController.m in Sources */,
+				943BC41A207F8D9300802237 /* QuickSort.m in Sources */,
 				94709DF3207EED0F00A4AFA2 /* main.m in Sources */,
 				94709E1E207EEEDA00A4AFA2 /* YTTableViewSection.m in Sources */,
 				94709E20207EEEDA00A4AFA2 /* YTNormalCellViewModel.m in Sources */,

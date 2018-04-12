@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "BubbleSort.h"
+#import "QuickSort.h"
 
 @interface AppDelegate ()
 
@@ -20,6 +21,9 @@
     // Override point for customization after application launch.
     
     [BubbleSort sortArray:[@[@(23), @(1), @(22), @(15), @(9), @(8)] mutableCopy]];
+    NSArray *sortedArray = [QuickSort sortArray:[@[@(2), @(5), @(1), @(9), @(10), @(7), @(3), @(4), @(6), @(8)] mutableCopy] left:0 right:9];
+    
+    NSLog(@"快速排序结果：%@", sortedArray);
     
     return YES;
 }

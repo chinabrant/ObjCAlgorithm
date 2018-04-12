@@ -15,7 +15,9 @@
  */
 + (void)sortArray:(NSMutableArray *)array {
     
-    for (int i = 0; i < array.count; i++) {
+    // 外层循环没循环一次归位一个数
+    // count 个数据，只要比较 count - 1 趟
+    for (int i = 0; i < array.count - 1; i++) {
         
         for (int j = 0; j < array.count - 1 - i; j++) {
             
