@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94709DE5207EED0E00A4AFA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94709DE4207EED0E00A4AFA2 /* AppDelegate.m */; };
+		94709DE8207EED0E00A4AFA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94709DE7207EED0E00A4AFA2 /* ViewController.m */; };
+		94709DEB207EED0E00A4AFA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94709DE9207EED0E00A4AFA2 /* Main.storyboard */; };
+		94709DED207EED0F00A4AFA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94709DEC207EED0F00A4AFA2 /* Assets.xcassets */; };
+		94709DF0207EED0F00A4AFA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94709DEE207EED0F00A4AFA2 /* LaunchScreen.storyboard */; };
+		94709DF3207EED0F00A4AFA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94709DF2207EED0F00A4AFA2 /* main.m */; };
+		94709E03207EEE7000A4AFA2 /* AlgorithmListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94709E02207EEE6F00A4AFA2 /* AlgorithmListViewController.m */; };
+		94709E07207EEE8800A4AFA2 /* AlgorithmListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94709E05207EEE8800A4AFA2 /* AlgorithmListCell.m */; };
+		94709E08207EEE8800A4AFA2 /* AlgorithmListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94709E06207EEE8800A4AFA2 /* AlgorithmListCell.xib */; };
+		94709E1E207EEEDA00A4AFA2 /* YTTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 94709E0C207EEEDA00A4AFA2 /* YTTableViewSection.m */; };
+		94709E1F207EEEDA00A4AFA2 /* YTNormalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94709E10207EEEDA00A4AFA2 /* YTNormalCell.m */; };
+		94709E20207EEEDA00A4AFA2 /* YTNormalCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 94709E13207EEEDA00A4AFA2 /* YTNormalCellViewModel.m */; };
+		94709E21207EEEDA00A4AFA2 /* YTGapCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 94709E14207EEEDA00A4AFA2 /* YTGapCellViewModel.m */; };
+		94709E22207EEEDA00A4AFA2 /* YTGapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 94709E17207EEEDA00A4AFA2 /* YTGapCell.m */; };
+		94709E23207EEEDA00A4AFA2 /* YTSectionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 94709E1A207EEEDA00A4AFA2 /* YTSectionFactory.m */; };
+		94709E24207EEEDA00A4AFA2 /* YTTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 94709E1C207EEEDA00A4AFA2 /* YTTableView.m */; };
+		94709E27207EEF5E00A4AFA2 /* AlgorithmListViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 94709E26207EEF5E00A4AFA2 /* AlgorithmListViewModel.m */; };
+		94709E2A207EEF8F00A4AFA2 /* AlgorithmListCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 94709E29207EEF8F00A4AFA2 /* AlgorithmListCellViewModel.m */; };
+		94709E2D207EF0BC00A4AFA2 /* AlgorithmListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 94709E2C207EF0BC00A4AFA2 /* AlgorithmListModel.m */; };
+		94709E32207EF5DF00A4AFA2 /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 94709E31207EF5DF00A4AFA2 /* BubbleSort.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		94709DE0207EED0D00A4AFA2 /* ObjcAlgorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjcAlgorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94709DE3207EED0E00A4AFA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94709DE4207EED0E00A4AFA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94709DE6207EED0E00A4AFA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		94709DE7207EED0E00A4AFA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		94709DEA207EED0E00A4AFA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94709DEC207EED0F00A4AFA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94709DEF207EED0F00A4AFA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94709DF1207EED0F00A4AFA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94709DF2207EED0F00A4AFA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94709E01207EEE6F00A4AFA2 /* AlgorithmListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgorithmListViewController.h; sourceTree = "<group>"; };
+		94709E02207EEE6F00A4AFA2 /* AlgorithmListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlgorithmListViewController.m; sourceTree = "<group>"; };
+		94709E04207EEE8800A4AFA2 /* AlgorithmListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmListCell.h; sourceTree = "<group>"; };
+		94709E05207EEE8800A4AFA2 /* AlgorithmListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmListCell.m; sourceTree = "<group>"; };
+		94709E06207EEE8800A4AFA2 /* AlgorithmListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlgorithmListCell.xib; sourceTree = "<group>"; };
+		94709E0C207EEEDA00A4AFA2 /* YTTableViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTTableViewSection.m; sourceTree = "<group>"; };
+		94709E0D207EEEDA00A4AFA2 /* YTTableCellViewModelProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTTableCellViewModelProtocol.h; sourceTree = "<group>"; };
+		94709E0E207EEEDA00A4AFA2 /* YTTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTTableView.h; sourceTree = "<group>"; };
+		94709E10207EEEDA00A4AFA2 /* YTNormalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTNormalCell.m; sourceTree = "<group>"; };
+		94709E12207EEEDA00A4AFA2 /* YTGapCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTGapCellViewModel.h; sourceTree = "<group>"; };
+		94709E13207EEEDA00A4AFA2 /* YTNormalCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTNormalCellViewModel.m; sourceTree = "<group>"; };
+		94709E14207EEEDA00A4AFA2 /* YTGapCellViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTGapCellViewModel.m; sourceTree = "<group>"; };
+		94709E15207EEEDA00A4AFA2 /* YTNormalCellViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTNormalCellViewModel.h; sourceTree = "<group>"; };
+		94709E16207EEEDA00A4AFA2 /* YTSectionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTSectionFactory.h; sourceTree = "<group>"; };
+		94709E17207EEEDA00A4AFA2 /* YTGapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTGapCell.m; sourceTree = "<group>"; };
+		94709E18207EEEDA00A4AFA2 /* YTNormalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTNormalCell.h; sourceTree = "<group>"; };
+		94709E19207EEEDA00A4AFA2 /* YTGapCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTGapCell.h; sourceTree = "<group>"; };
+		94709E1A207EEEDA00A4AFA2 /* YTSectionFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTSectionFactory.m; sourceTree = "<group>"; };
+		94709E1B207EEEDA00A4AFA2 /* YTTableViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTTableViewSection.h; sourceTree = "<group>"; };
+		94709E1C207EEEDA00A4AFA2 /* YTTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTTableView.m; sourceTree = "<group>"; };
+		94709E1D207EEEDA00A4AFA2 /* YTCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTCellProtocol.h; sourceTree = "<group>"; };
+		94709E25207EEF5E00A4AFA2 /* AlgorithmListViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmListViewModel.h; sourceTree = "<group>"; };
+		94709E26207EEF5E00A4AFA2 /* AlgorithmListViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmListViewModel.m; sourceTree = "<group>"; };
+		94709E28207EEF8F00A4AFA2 /* AlgorithmListCellViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmListCellViewModel.h; sourceTree = "<group>"; };
+		94709E29207EEF8F00A4AFA2 /* AlgorithmListCellViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmListCellViewModel.m; sourceTree = "<group>"; };
+		94709E2B207EF0BC00A4AFA2 /* AlgorithmListModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlgorithmListModel.h; sourceTree = "<group>"; };
+		94709E2C207EF0BC00A4AFA2 /* AlgorithmListModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlgorithmListModel.m; sourceTree = "<group>"; };
+		94709E30207EF5DF00A4AFA2 /* BubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
+		94709E31207EF5DF00A4AFA2 /* BubbleSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleSort.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94709DDD207EED0D00A4AFA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94709DD7207EED0D00A4AFA2 = {
+			isa = PBXGroup;
+			children = (
+				94709E09207EEEDA00A4AFA2 /* Core */,
+				94709DE2207EED0E00A4AFA2 /* ObjcAlgorithm */,
+				94709DE1207EED0D00A4AFA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94709DE1207EED0D00A4AFA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94709DE0207EED0D00A4AFA2 /* ObjcAlgorithm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94709DE2207EED0E00A4AFA2 /* ObjcAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				94709E2E207EF5CE00A4AFA2 /* Algorithm */,
+				94709DFC207EEE5300A4AFA2 /* AlgorithmList */,
+				94709DE3207EED0E00A4AFA2 /* AppDelegate.h */,
+				94709DE4207EED0E00A4AFA2 /* AppDelegate.m */,
+				94709DE6207EED0E00A4AFA2 /* ViewController.h */,
+				94709DE7207EED0E00A4AFA2 /* ViewController.m */,
+				94709DE9207EED0E00A4AFA2 /* Main.storyboard */,
+				94709DEC207EED0F00A4AFA2 /* Assets.xcassets */,
+				94709DEE207EED0F00A4AFA2 /* LaunchScreen.storyboard */,
+				94709DF1207EED0F00A4AFA2 /* Info.plist */,
+				94709DF2207EED0F00A4AFA2 /* main.m */,
+			);
+			path = ObjcAlgorithm;
+			sourceTree = "<group>";
+		};
+		94709DFC207EEE5300A4AFA2 /* AlgorithmList */ = {
+			isa = PBXGroup;
+			children = (
+				94709DFD207EEE5300A4AFA2 /* ViewModel */,
+				94709DFE207EEE5300A4AFA2 /* Controller */,
+				94709DFF207EEE5300A4AFA2 /* Model */,
+				94709E00207EEE5300A4AFA2 /* View */,
+			);
+			path = AlgorithmList;
+			sourceTree = "<group>";
+		};
+		94709DFD207EEE5300A4AFA2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				94709E25207EEF5E00A4AFA2 /* AlgorithmListViewModel.h */,
+				94709E26207EEF5E00A4AFA2 /* AlgorithmListViewModel.m */,
+				94709E28207EEF8F00A4AFA2 /* AlgorithmListCellViewModel.h */,
+				94709E29207EEF8F00A4AFA2 /* AlgorithmListCellViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		94709DFE207EEE5300A4AFA2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				94709E01207EEE6F00A4AFA2 /* AlgorithmListViewController.h */,
+				94709E02207EEE6F00A4AFA2 /* AlgorithmListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		94709DFF207EEE5300A4AFA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				94709E2B207EF0BC00A4AFA2 /* AlgorithmListModel.h */,
+				94709E2C207EF0BC00A4AFA2 /* AlgorithmListModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		94709E00207EEE5300A4AFA2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94709E04207EEE8800A4AFA2 /* AlgorithmListCell.h */,
+				94709E05207EEE8800A4AFA2 /* AlgorithmListCell.m */,
+				94709E06207EEE8800A4AFA2 /* AlgorithmListCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		94709E09207EEEDA00A4AFA2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				94709E0A207EEEDA00A4AFA2 /* View */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		94709E0A207EEEDA00A4AFA2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				94709E0B207EEEDA00A4AFA2 /* YTTableView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		94709E0B207EEEDA00A4AFA2 /* YTTableView */ = {
+			isa = PBXGroup;
+			children = (
+				94709E0C207EEEDA00A4AFA2 /* YTTableViewSection.m */,
+				94709E0D207EEEDA00A4AFA2 /* YTTableCellViewModelProtocol.h */,
+				94709E0E207EEEDA00A4AFA2 /* YTTableView.h */,
+				94709E0F207EEEDA00A4AFA2 /* CommonCells */,
+				94709E1B207EEEDA00A4AFA2 /* YTTableViewSection.h */,
+				94709E1C207EEEDA00A4AFA2 /* YTTableView.m */,
+				94709E1D207EEEDA00A4AFA2 /* YTCellProtocol.h */,
+			);
+			path = YTTableView;
+			sourceTree = "<group>";
+		};
+		94709E0F207EEEDA00A4AFA2 /* CommonCells */ = {
+			isa = PBXGroup;
+			children = (
+				94709E10207EEEDA00A4AFA2 /* YTNormalCell.m */,
+				94709E11207EEEDA00A4AFA2 /* CellViewModels */,
+				94709E16207EEEDA00A4AFA2 /* YTSectionFactory.h */,
+				94709E17207EEEDA00A4AFA2 /* YTGapCell.m */,
+				94709E18207EEEDA00A4AFA2 /* YTNormalCell.h */,
+				94709E19207EEEDA00A4AFA2 /* YTGapCell.h */,
+				94709E1A207EEEDA00A4AFA2 /* YTSectionFactory.m */,
+			);
+			path = CommonCells;
+			sourceTree = "<group>";
+		};
+		94709E11207EEEDA00A4AFA2 /* CellViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				94709E12207EEEDA00A4AFA2 /* YTGapCellViewModel.h */,
+				94709E13207EEEDA00A4AFA2 /* YTNormalCellViewModel.m */,
+				94709E14207EEEDA00A4AFA2 /* YTGapCellViewModel.m */,
+				94709E15207EEEDA00A4AFA2 /* YTNormalCellViewModel.h */,
+			);
+			path = CellViewModels;
+			sourceTree = "<group>";
+		};
+		94709E2E207EF5CE00A4AFA2 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				94709E2F207EF5CE00A4AFA2 /* BubbleSort */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		94709E2F207EF5CE00A4AFA2 /* BubbleSort */ = {
+			isa = PBXGroup;
+			children = (
+				94709E30207EF5DF00A4AFA2 /* BubbleSort.h */,
+				94709E31207EF5DF00A4AFA2 /* BubbleSort.m */,
+			);
+			path = BubbleSort;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94709DDF207EED0D00A4AFA2 /* ObjcAlgorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94709DF6207EED0F00A4AFA2 /* Build configuration list for PBXNativeTarget "ObjcAlgorithm" */;
+			buildPhases = (
+				94709DDC207EED0D00A4AFA2 /* Sources */,
+				94709DDD207EED0D00A4AFA2 /* Frameworks */,
+				94709DDE207EED0D00A4AFA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjcAlgorithm;
+			productName = ObjcAlgorithm;
+			productReference = 94709DE0207EED0D00A4AFA2 /* ObjcAlgorithm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94709DD8207EED0D00A4AFA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Brant;
+				TargetAttributes = {
+					94709DDF207EED0D00A4AFA2 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 94709DDB207EED0D00A4AFA2 /* Build configuration list for PBXProject "ObjcAlgorithm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94709DD7207EED0D00A4AFA2;
+			productRefGroup = 94709DE1207EED0D00A4AFA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94709DDF207EED0D00A4AFA2 /* ObjcAlgorithm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94709DDE207EED0D00A4AFA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94709DF0207EED0F00A4AFA2 /* LaunchScreen.storyboard in Resources */,
+				94709E08207EEE8800A4AFA2 /* AlgorithmListCell.xib in Resources */,
+				94709DED207EED0F00A4AFA2 /* Assets.xcassets in Resources */,
+				94709DEB207EED0E00A4AFA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94709DDC207EED0D00A4AFA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94709E2D207EF0BC00A4AFA2 /* AlgorithmListModel.m in Sources */,
+				94709E27207EEF5E00A4AFA2 /* AlgorithmListViewModel.m in Sources */,
+				94709E1F207EEEDA00A4AFA2 /* YTNormalCell.m in Sources */,
+				94709E2A207EEF8F00A4AFA2 /* AlgorithmListCellViewModel.m in Sources */,
+				94709DE8207EED0E00A4AFA2 /* ViewController.m in Sources */,
+				94709DF3207EED0F00A4AFA2 /* main.m in Sources */,
+				94709E1E207EEEDA00A4AFA2 /* YTTableViewSection.m in Sources */,
+				94709E20207EEEDA00A4AFA2 /* YTNormalCellViewModel.m in Sources */,
+				94709E03207EEE7000A4AFA2 /* AlgorithmListViewController.m in Sources */,
+				94709DE5207EED0E00A4AFA2 /* AppDelegate.m in Sources */,
+				94709E21207EEEDA00A4AFA2 /* YTGapCellViewModel.m in Sources */,
+				94709E32207EF5DF00A4AFA2 /* BubbleSort.m in Sources */,
+				94709E24207EEEDA00A4AFA2 /* YTTableView.m in Sources */,
+				94709E07207EEE8800A4AFA2 /* AlgorithmListCell.m in Sources */,
+				94709E23207EEEDA00A4AFA2 /* YTSectionFactory.m in Sources */,
+				94709E22207EEEDA00A4AFA2 /* YTGapCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94709DE9207EED0E00A4AFA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94709DEA207EED0E00A4AFA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94709DEE207EED0F00A4AFA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94709DEF207EED0F00A4AFA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94709DF4207EED0F00A4AFA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94709DF5207EED0F00A4AFA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94709DF7207EED0F00A4AFA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWHVHZ3462;
+				INFOPLIST_FILE = ObjcAlgorithm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brant.ObjcAlgorithm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94709DF8207EED0F00A4AFA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LWHVHZ3462;
+				INFOPLIST_FILE = ObjcAlgorithm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brant.ObjcAlgorithm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94709DDB207EED0D00A4AFA2 /* Build configuration list for PBXProject "ObjcAlgorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94709DF4207EED0F00A4AFA2 /* Debug */,
+				94709DF5207EED0F00A4AFA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94709DF6207EED0F00A4AFA2 /* Build configuration list for PBXNativeTarget "ObjcAlgorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94709DF7207EED0F00A4AFA2 /* Debug */,
+				94709DF8207EED0F00A4AFA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94709DD8207EED0D00A4AFA2 /* Project object */;
+}
